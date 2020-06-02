@@ -39,7 +39,7 @@ int main() {
 	ofstream out_task, out_input_data, out_output_data;
 	cout << "Start generation\n";
 	srand((unsigned)time(NULL));
-	cin >> operation;
+	operation = rand()%10+1;
 	switch ( operation)
 	{
 	case 1: {
